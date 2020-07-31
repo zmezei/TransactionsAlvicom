@@ -4,7 +4,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="12.0.2+10"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Zoltan\eclipse-workspace\transactions"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Zoltan\git\TransactionsAlvicom\transactions"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="HU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Zoltan\eclipse-workspace\transactions"/>
+    <property name="user.dir" value="C:\Users\Zoltan\git\TransactionsAlvicom\transactions"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="12.0.2+10"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Zoltan\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1373220403873699685.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Zoltan\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4549794060864339834.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1250"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_231/bin/server;C:/Program Files/Java/jre1.8.0_231/bin;C:/Program Files/Java/jre1.8.0_231/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Applied Biosystems\StepOne Software v2.3\bin;D:\Applied Biosystems\StepOne Software v2.3\eclipse;D:\Applied Biosystems\StepOne Software v2.3\eclipse\plugins\com.apldbio.sds.experiment.genotyping_2.1.0\bin;D:\Applied Biosystems\StepOne Software v2.3\eclipse\plugins\com.apldbio.sds.experiment.genotyping_2.1.0\bin\bin\win32;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk-12.0.2\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;F:\Zoli\home\zoli\zoli_old\Zoli\tanulas\groovy\apache-groovy-sdk-2.5.8\groovy-2.5.8\bin;C:\Users\Zoltan\Anaconda3;C:\Users\Zoltan\Anaconda3\Scripts;C:\Users\Zoltan\Anaconda3\Library\bin;C:\Users\Zoltan\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\system32;;."/>
     <property name="jdk.debug" value="release"/>
@@ -50,7 +50,7 @@
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.version" value="12.0.2"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\Zoltan\eclipse-workspace\transactions\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\Zoltan\git\TransactionsAlvicom\transactions\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2019-07-16"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>

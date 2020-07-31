@@ -1,5 +1,0 @@
-com\alvicom\transactions\exceptions\NotEnoughMoneyOnAccountException.class
-com\alvicom\transactions\service\TransactionService.class
-com\alvicom\transactions\entities\BankAccount.class
-com\alvicom\transactions\service\impl\TransactionServiceImpl.class
-com\alvicom\transactions\core\TransactionsAlvicom.class

@@ -3,6 +3,7 @@ package com.alvicom.transactions.core;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -15,12 +16,14 @@ import com.alvicom.transactions.service.impl.TransactionServiceImpl;
 
 public class TransactionsAlvicom {
 	public static void main(String[] args) {
+		TransactionsAlvicom main = new TransactionsAlvicom();
+		
 		Integer numberOfTransactions = 0;
 		Boolean wantToTransferMore = true;
 		
 		TransactionService transactionService = new TransactionServiceImpl();
 		
-		List<BankAccount> allAccounts = readAccountDataFromCsv("src\\main\\resources\\exampleAccounts.csv");
+		List<BankAccount> allAccounts = main.readAccountDataFromCsv("/exampleAccounts.csv");
 		System.out.println("Available accounts:");
 		allAccounts.stream().forEach(account -> {
 			System.out.println("Account number: " + account.getAccountNumber() + "\tcurrency: " + account.getCurrency() + "\tBalance: " + account.getBalance());
@@ -77,12 +80,14 @@ public class TransactionsAlvicom {
 		scanner.close();
 	}
 	
-	private static List<BankAccount> readAccountDataFromCsv(String filePath) {
+	private List<BankAccount> readAccountDataFromCsv(String filePath) {
 		List<BankAccount> accounts = new ArrayList<BankAccount>();
 		
 		String line = "";
 		
-		try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+		try {
+			InputStreamReader isr = new InputStreamReader(getClass().getResourceAsStream(filePath));
+			BufferedReader br = new BufferedReader(isr);
 			br.readLine();
 			
 			while ((line = br.readLine()) != null) {
